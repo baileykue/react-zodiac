@@ -1,6 +1,12 @@
 .zodiac-card {
   display: flex;
   flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding: 10px;
+  border: 2px solid rgb(247, 205, 167);
+  border-radius: 25px;
+  line-height: 5px;
 }
 
 h1 {
@@ -13,4 +19,8 @@ h2 {
 
 img {
   width: 75px;
+}
+
+div {
+  margin: 20px;
 }
