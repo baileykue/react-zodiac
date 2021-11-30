@@ -4,10 +4,11 @@ import './App.css'
 import Header from './components/Header/Header'
 import Main from './components/Main/Main'
 import Footer from './components/Footer/Footer'
+import background from './background.jpg'
 
 function App() {
   return (
-    <div>
+    <div className="background" style={{ backgroundImage: `url(${background})` }}>
       <Header />
       <Main />
       <Footer />
