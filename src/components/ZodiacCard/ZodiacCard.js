@@ -1,12 +1,13 @@
 import React from 'react'
+import './ZodiacCard.css'
 
 export default function ZodiacCard({ name, dates }) {
   return (
     <>
-      <div>
+      <div className="zodiac-card">
         <img src={`${process.env.PUBLIC_URL}/zodiac-img/${name}.png`} />
-        <span className="name">{name}</span>
-        <span>{dates}</span>
+        <h1>{name}</h1>
+        <h2>{dates}</h2>
       </div>
     </>
   )

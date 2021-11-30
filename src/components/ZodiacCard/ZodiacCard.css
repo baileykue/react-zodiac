@@ -1,0 +1,16 @@
+.zodiac-card {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 35px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+img {
+  width: 75px;
+}
