@@ -1,10 +1,15 @@
 body {
-  background-color: #2e2e30;
+  margin: 0;
   font-family: 'Aladin', cursive;
   color: rgb(247, 205, 167);
 }
 
 .background {
-  background-size: 75%;
-  background-repeat: no-repeat;
+  background-size: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  min-width: 100%;
+  min-height: 100%;
 }
