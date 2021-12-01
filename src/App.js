@@ -8,7 +8,7 @@ import background from './background.jpg'
 
 function App() {
   return (
-    <div className="background" style={{ backgroundImage: `url(${background})` }}>
+    <div className="background center" style={{ backgroundImage: `url(${background})` }}>
       <Header />
       <Main />
       <Footer />

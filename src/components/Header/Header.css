@@ -1,3 +1,8 @@
-header {
+.header {
+  width: 100%;
   font-size: 55px;
+  background: linear-gradient(45deg, rgb(93, 93, 220, 0.5), rgb(108, 62, 108, 0.5));
+  text-shadow: 2px 2px 2px rgb(23, 22, 22);
+  text-align: center;
+  padding: 5px;
 }

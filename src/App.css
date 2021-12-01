@@ -4,6 +4,12 @@ body {
   color: rgb(247, 205, 167);
 }
 
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .background {
   background-size: 100%;
   position: fixed;
